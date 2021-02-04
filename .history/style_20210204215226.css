@@ -19,7 +19,7 @@ body {
     background-color: transparent;
     border-top: 5px solid white;
     position: relative;
-
+    transform: 0.3s trasform linear;
 }
 
 #hamburgerMenu::before, #hamburgerMenu::after {
@@ -42,7 +42,6 @@ body {
 #hamburgerMenu:hover {
     transform: rotate(45deg);
     border: none;
-    transition: ease-in-out 0.3s;
 }
 
 #hamburgerMenu:hover::after {

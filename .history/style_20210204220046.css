@@ -33,10 +33,12 @@ body {
 
 #hamburgerMenu::after {
     transform: translateY(25px);
+    transition: ease-in-out 0.3s;
 }
 
 #hamburgerMenu::before {
     transform: translateY(10px);
+    transition: ease-in-out 0.3s;
 }
 
 #hamburgerMenu:hover {
