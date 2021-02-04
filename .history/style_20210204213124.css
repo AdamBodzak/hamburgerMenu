@@ -18,22 +18,9 @@ body {
     height: 35px;
     background-color: rgba(255, 255, 255, 0.4);
     border-top: 5px solid white;
-    position: relative;
 }
 
 #hamburgerMenu::before, #hamburgerMenu::after {
     content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    border-top: 5px solid white;
-}
-
-#hamburgerMenu::after {
-    transform: translateY(25px);
-}
-
-#hamburgerMenu::before {
-    transform: translateY(10px);
+    background-color: rgba(255, 255, 255, 0.4);
 }

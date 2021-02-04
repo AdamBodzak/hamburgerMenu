@@ -33,7 +33,3 @@ body {
 #hamburgerMenu::after {
     transform: translateY(25px);
 }
-
-#hamburgerMenu::before {
-    transform: translateY(10px);
-}

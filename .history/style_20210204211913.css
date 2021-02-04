@@ -1,0 +1,8 @@
+* *::before *::after {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(32, 100, 146);
+}
